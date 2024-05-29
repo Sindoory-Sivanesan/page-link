@@ -1,0 +1,79 @@
+.logo{
+    height: 150px;
+}
+.form{
+    border-radius: 10px;  
+    border: 1px solid #fdfdfd;
+    background-color: white;
+    box-shadow: 0cqmin 1px 3px 4px #d3d3d3;
+    /* padding: 14px; */
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-size: 17px;
+    margin-top: 7px;
+    margin-right: 20px;
+    
+}
+.form-1{
+    border-radius: 10px;  
+    border: 1px solid #fdfdfd;
+    background-color: white;
+    box-shadow: 0cqmin 1px 3px 4px #d3d3d3;
+    /* padding: 14px; */
+    padding-right: 132px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    font-size: 17px;
+    margin-top: 7px;
+    margin-right: 20px;
+    
+}
+
+.container{
+    display: flex;
+}
+.right-side{
+    /* width: 50%; */
+    margin-left: 100px;
+    margin-right: 75px;
+    font-size: 20px;
+    
+    
+
+}
+
+.left-side{
+    width: 70vw;
+    height: 140vh;
+
+    
+}
+.tractor{
+   
+    height: 100%;
+    width: 100%;
+}
+
+.signup{
+    border-radius: 10px;  
+    /* border: 1px solid #fdfdfd; */
+    background-color:  rgb(5, 90, 28);;
+    box-shadow: 1px 1px 3px 4px #d3d3d3;
+   
+    font: 20px white;
+    color: #fdfdfd;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 120px;
+    display: flex;
+    justify-content:flex-start;
+   
+}
+
+.signin{
+    padding-top: 0px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Section:4</title>
+    <link rel="stylesheet" href="../styles/section4.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <!-- <img src="../assets/logo1.jpg" alt="logo" class="logo"> -->
+        <img src="../assets/farmer.jpeg" alt="tractor" class="tractor" />
+      </div>
+      <div class="right-side">
+        <h2>Welcome to Farmers</h2>
+        <p>Please enter your details.</p>
+        <form action="./thankyou.html" method="post" class>
+          <label for="name">Full Name</label><br />
+          <input
+            type="text"
+            class="form"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <br /><br />
+
+          <label for="nic">NIC Number</label><br />
+          <input
+            type="text"
+            class="form"
+            id="nic"
+            name="nic"
+            placeholder="Enter your NIC Number"
+            required
+          />
+          <br /><br />
+
+          <label for="phone">Phone Number</label><br />
+          <input
+            type="tel"
+            class="form"
+            id="phone"
+            name="number"
+            placeholder="Enter your phone Number"
+            required
+          />
+          <br /><br />
+
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            class="form"
+            id="email"
+            placeholder="Enter your Email"
+            name="email"
+            required
+          />
+          <br /><br />
+
+          <div>
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              class="form"
+              id="password"
+              placeholder="Create password"
+              name="password"
+              required
+            />
+            <span
+              toggle="#password-field"
+              class="fa fa-fw fa-eye field-icon toggle-password"
+            ></span>
+          </div>
+          <br /><br />
+
+          <label for="confirm">Confirm Password:</label><br />
+          <input
+            type="password"
+            class="form"
+            id="confirm"
+            name="confirm"
+            placeholder="Confirm password"
+            required
+          />
+
+          <br /><br />
+
+          <input type="submit" value="Signup" class="signup" />
+          <br />
+
+          <span class="signin"
+            >Already have an account? <a href="#">Sign in!</a></span
+          >
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Section:1</title>
+    <link rel="stylesheet" href="../styles/section1.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <div class="left-side">
+       <img src="../assets/logo1.jpg" alt="logo" class="logo">
+       
+       <div class="content-container">
+        <form action="../components/section2.html" method="post">
+            <h1>WELCOME BACK</h1>
+            <P>Welcome back! Please enter your details.</P>
+
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" name="password" required>
+                <div class="allign">
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" > Remember me
+                </label>
+                <span >
+                    <a href="#">Forgot password</a>
+                </span>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+                <button type="button" class="link-btn"><img src="../assets/Google1.webp"alt="google" class="google"><link href="https://accounts.google.com/signin">Sign in with Google</link></button>
+                <span class="signup" >Don't have an account?
+                    <a href="#">Sign up free!</a></span>
+            </div>
+
+        </form>
+       </div>
+    </div>
+       <img src="../assets/rice.jpg" alt="rice" class="coverimg">
+    </div>
+  </body>
+</html>
